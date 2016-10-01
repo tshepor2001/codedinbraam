@@ -6,12 +6,13 @@ import {
   View
 } from 'react-native';
 import styles from '../styles';
+import {Toolbar} from 'react-native-material-design';
 
 class Presentation extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Presentation</Text>
+        <Toolbar title={"Rate my Presentation"} icon={"menu"} style={styles.toolbar}/>
       </View>
     );
   }
