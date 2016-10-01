@@ -17,5 +17,8 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  list: {
+    paddingTop: 60,
+  }
 });
 module.exports = styles;
